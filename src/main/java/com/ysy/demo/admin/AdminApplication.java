@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@MapperScan("com.shiyuan.admin.*.mapper")
+@MapperScan("com.ysy.demo.admin.*.mapper")
 @EnableTransactionManagement
 public class AdminApplication {
 
